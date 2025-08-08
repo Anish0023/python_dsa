@@ -5,7 +5,7 @@ from os import *
 from sys import *
 from collections import *
 from math import *
-
+print("heelo")
 def zeroMatrix(matrix, n, m):
     # Write your code here.
 
