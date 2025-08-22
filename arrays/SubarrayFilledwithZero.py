@@ -1,3 +1,7 @@
+'''
+increment cnt for each zero in the subarray
+and add cnt to ans when we encounter a non-zero reset cnt
+'''
 class Solution(object):
     def zeroFilledSubarray(self, nums):
         """
