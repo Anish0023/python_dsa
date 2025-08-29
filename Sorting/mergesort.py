@@ -33,3 +33,4 @@ if __name__ == "__main__":
     print("Given array is", A)
     mergeSort(A, 0, len(A)-1)
     print("Sorted array is: ", A)   
+# try and optimize the above code 
