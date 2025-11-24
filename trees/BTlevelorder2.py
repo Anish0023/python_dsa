@@ -18,7 +18,7 @@ class Solution:
     def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
         ans = []
         self.level(root, 0 , ans)
-        return ans[::-1]
+        return ans
     
 if __name__ == "__main__":
     obj = Solution()
