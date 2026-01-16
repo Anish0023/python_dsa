@@ -1,3 +1,8 @@
+'''
+Docstring for Sorting.insertionSort
+In insertion sort we iterate through an array and at each iteration,
+and we place the current element at its correct position in the already sorted part of the array.
+'''
 def insertion_sort(arr):
     n = len(arr)
     for i in range(1, n):
