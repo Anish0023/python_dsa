@@ -38,6 +38,7 @@ class Solution:
                 left += 1  # Move left boundary right
 
         return result
+    
 
 # Driver code
 obj = Solution()
