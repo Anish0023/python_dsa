@@ -17,3 +17,4 @@ if __name__ == '__main__':
     print(sol.triangleNumber([2, 2, 3, 4]))  # Output: 3
     print(sol.triangleNumber([4, 2, 3, 4]))  # Output: 4
     print(sol.triangleNumber([1, 1, 3, 4]))  # Output: 0
+
