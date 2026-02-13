@@ -1,3 +1,9 @@
+'''
+Docstring for arrays&matrix.findmininsortedrotatedarray
+find the minimum element in a sorted and rotated array
+No duplicate exists in the array
+
+'''
 from typing import List
 class Solution:
     def findMin(self, nums: List[int]) -> int:
