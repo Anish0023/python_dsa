@@ -22,7 +22,7 @@ class Solution:
                 l = m + 1
             else:
                 r = m 
-        return nums[l]
+        return l
 if __name__ == '__main__':
     sol = Solution()
     arr1 = [1,2,3,1]
