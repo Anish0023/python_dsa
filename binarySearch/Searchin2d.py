@@ -1,3 +1,12 @@
+'''
+Hypothetically, flatten the array and try to implement binary search on it.
+The index of the middle element can be calculated as mid = (l + h) // 2.
+To get the row and column of the middle element,
+we can use row = mid // m and col = mid % m, 
+where m is the number of columns in the matrix. 
+This way, we can compare the middle element with the target and 
+adjust our search range accordingly until we find the target or exhaust the search space.
+'''
 from typing import List
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
