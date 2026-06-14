@@ -1,3 +1,7 @@
+import sys
+sys.stdout = open('/Users/aniiiish/Documents/Projects/python_dsa/inf_mocks/output.txt', 'w')
+sys.stdin = open('/Users/aniiiish/Documents/Projects/python_dsa/inf_mocks/input.txt','r')
+
 def solve():
     pass
 def main():
