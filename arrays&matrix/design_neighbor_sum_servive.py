@@ -9,6 +9,7 @@ that is either to the top, left, right, or bottom of value in grid.
 int diagonalSum(int value) returns the sum of elements which are diagonal neighbors of
  value, that is either to the top-left, top-right, bottom-left, or bottom-right of value in grid.
 
+ So this how we approach the problem, we will first find the position of the value in the grid and then we will check for its adjacent and diagonal neighbors and return their sum.
 '''
 from typing import List
 class NeighborSum:
